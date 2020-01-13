@@ -41,7 +41,7 @@ def handle(msg):
         cmd = msg['text'].capitalize()
         
         '''if chat_id not in CHAT_IDS:
-            bot.sendMessage(chat_id, "You have not registered your telegram ID. Please message to get added.")
+            bot.sendMessage(chat_id, "You have not registered your telegram ID. Please message <number> to get added.")
             return'''
 
         if dt.today().weekday()>4 or dt.now().hour<7 or dt.now().hour+(dt.now().minute/60)>=6.75+12:
