@@ -1,0 +1,5 @@
+@reboot sudo pigpiod
+@reboot python3 /home/pi/Desktop/door/bluetooth-door.py
+@reboot python3 /home/pi/Desktop/door/doorbot.py
+
+
