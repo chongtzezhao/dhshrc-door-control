@@ -8,11 +8,10 @@ import pigpio
 print("bot starting...")
 # CONSTANTS AND AUTHORISATION DATA
 
-token = '1065181249:AAFZu_58l-xJtjzoSKTK7arLeo2k0NynbxA'
+token = "<your_bot_token>"
 bot = telepot.Bot(token)
 
-CHAT_IDS = [956428669, 68180890, 910250337]
-MORNING_REMINDER = [910250337, 956428669]
+CHAT_IDS = []
 
 COMMANDS = ["Open"]
 
