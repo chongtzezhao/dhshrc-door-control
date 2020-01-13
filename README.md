@@ -3,7 +3,7 @@ This repo contains the code which activates a servo whenever a message is receiv
 
 v1.0
 
-Feature:
+Features:
 - This repo contains two modes of communication. THe first is through sending messages to a telegram bot, the other is a sending commands through a bluetooth socket.
 - Simple and easy to use
 - Auto day and time check: Will only activate on weekdays, between 7am and 6.45 pm
